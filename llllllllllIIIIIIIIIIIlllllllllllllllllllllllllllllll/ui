@@ -390,9 +390,7 @@ do
         local WindowImage = Utility.AddDrawing("Image", {
             Size = WindowFrame.Size,
             Position = WindowFrame.Position,
-            Transparency = 1, 
-            Visible = true,
-            Data = Library.Theme.Gradient
+            Color = Library.Theme.LightContrast,
         })
         --
         local WindowTitle = Utility.AddDrawing("Text", {
@@ -654,7 +652,7 @@ do
             local WindowImage =  Utility.AddDrawing("Square", {
                 Size = WindowFrame.Size,
                 Position = WindowFrame.Position,
-                Color = Library.Theme.LightContrast, -- 按钮底色
+                Color = Library.Theme.LightContrast,
             }, Library.Keybind)
             --
             local WindowText = Utility.AddDrawing("Text", {
@@ -782,9 +780,7 @@ do
         local WindowImage = Utility.AddDrawing("Image", {
             Size = WindowFrame.Size,
             Position = WindowFrame.Position,
-            Transparency = 1, 
-            Visible = true,
-            Data = Library.Theme.Gradient
+            Color = Library.Theme.LightContrast,
         })
         --
         local WindowTitle = Utility.AddDrawing("Text", {
@@ -4176,9 +4172,7 @@ do
             local WindowImage = Utility.AddDrawing("Image", {
                 Size = WindowFrame.Size,
                 Position = WindowFrame.Position,
-                Transparency = 1, 
-                Visible = true,
-                Data = Library.Theme.Gradient
+                Color = Library.Theme.LightContrast,
             }, Library.Watermark)
             --
             local WindowTitle = Utility.AddDrawing("Text", {
