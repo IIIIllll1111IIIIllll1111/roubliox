@@ -387,7 +387,7 @@ do
             Filled = true
         })
         --
-        local WindowImage = Utility.AddDrawing("Image", {
+        local WindowImage = Utility.AddDrawing("Square", {
             Size = WindowFrame.Size,
             Position = WindowFrame.Position,
             Color = Library.Theme.LightContrast,
@@ -777,7 +777,7 @@ do
             Filled = true
         })
         --
-        local WindowImage = Utility.AddDrawing("Image", {
+        local WindowImage = Utility.AddDrawing("Square", {
             Size = WindowFrame.Size,
             Position = WindowFrame.Position,
             Color = Library.Theme.LightContrast,
@@ -921,12 +921,10 @@ do
                 Filled = true
             }, Library.Ignores)
             --
-            local NotificationImage = Utility.AddDrawing("Image", {
+            local NotificationImage = Utility.AddDrawing("Square", {
                 Size = NotificationOutlineBorder.Size,
                 Position = NotificationOutlineBorder.Position,
-                Transparency = 1, 
-                Visible = true,
-                Data = Library.Theme.Gradient
+                Color = Library.Theme.LightContrast,
             }, Library.Ignores)
             --
             local NotificationText = Utility.AddDrawing("Text", {
@@ -4169,7 +4167,7 @@ do
                 end
             end)
             --
-            local WindowImage = Utility.AddDrawing("Image", {
+            local WindowImage = Utility.AddDrawing("Square", {
                 Size = WindowFrame.Size,
                 Position = WindowFrame.Position,
                 Color = Library.Theme.LightContrast,
