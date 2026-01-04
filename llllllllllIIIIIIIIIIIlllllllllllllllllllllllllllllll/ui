@@ -1243,12 +1243,10 @@ do
                         Filled = true
                     })
                     --
-                    local ToggleGradient = Utility.AddDrawing("Image", {
+                    local ToggleGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(ToggleInline.Size.X - 2, ToggleInline.Size.Y - 2),
                         Position = Vector2.new(ToggleInline.Position.X + 1, ToggleInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 0.5,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local ToggleTitle = Utility.AddDrawing("Text", {
@@ -1378,12 +1376,10 @@ do
                             Filled = true
                         })
                         --
-                        local ColorpickerGradient = Utility.AddDrawing("Image", {
+                        local ColorpickerGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(ColorpickerInline.Size.X - 2, ColorpickerInline.Size.Y - 2),
                             Position = Vector2.new(ColorpickerInline.Position.X + 1, ColorpickerInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 0.5,
-                            Visible = true
+                            Color = Library.Theme.LightContrast,
                         })
                         --
                         local InternalInline = Utility.AddDrawing("Square", {
@@ -1889,12 +1885,10 @@ do
                             Filled = true
                         })
                         --
-                        local KeybindGradient = Utility.AddDrawing("Image", {
+                        local KeybindGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(KeybindInline.Size.X - 2, KeybindInline.Size.Y - 2),
                             Position = Vector2.new(KeybindInline.Position.X + 1, KeybindInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 1,
-                            Visible = true
+                            Color = Library.Theme.LightContrast,
                         })
                         --
                         local KeybindValue = Utility.AddDrawing("Text", {
@@ -1929,12 +1923,10 @@ do
                             ZIndex = 3
                         })
                         --
-                        local KeybindHoldGradient = Utility.AddDrawing("Image", {
+                        local KeybindHoldGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(KeybindHoldInline.Size.X - 2, KeybindHoldInline.Size.Y - 2),
                             Position = Vector2.new(KeybindHoldInline.Position.X + 1, KeybindHoldInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 1,
-                            Visible = true,
+                            Color = Library.Theme.LightContrast,
                             ZIndex = 3
                         })
                         --
@@ -1969,12 +1961,10 @@ do
                             ZIndex = 3
                         })
                         --
-                        local KeybindToggleGradient = Utility.AddDrawing("Image", {
+                        local KeybindToggleGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(KeybindToggleInline.Size.X - 2, KeybindToggleInline.Size.Y - 2),
                             Position = Vector2.new(KeybindToggleInline.Position.X + 1, KeybindToggleInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 1,
-                            Visible = true,
+                            Color = Library.Theme.LightContrast,
                             ZIndex = 3
                         })
                         --
@@ -2010,12 +2000,10 @@ do
                             ZIndex = 3
                         })
                         --
-                        local KeybindAlwaysGradient = Utility.AddDrawing("Image", {
+                        local KeybindAlwaysGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(KeybindAlwaysInline.Size.X - 2, KeybindAlwaysInline.Size.Y - 2),
                             Position = Vector2.new(KeybindAlwaysInline.Position.X + 1, KeybindAlwaysInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 1,
-                            Visible = true,
+                            Color = Library.Theme.LightContrast,
                             ZIndex = 3
                         })
                         --
@@ -2264,12 +2252,10 @@ do
                         Filled = true
                     })
                     --
-                    local SliderGradient = Utility.AddDrawing("Image", {
+                    local SliderGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(SliderInline.Size.X - 2, SliderInline.Size.Y - 2),
                         Position = Vector2.new(SliderInline.Position.X + 1, SliderInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 0.5,
-                        Visible = false
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local SliderTitle = Utility.AddDrawing("Text", {
@@ -2449,12 +2435,10 @@ do
                         Filled = true
                     })
                     --
-                    local ButtonGradient = Utility.AddDrawing("Image", {
+                    local ButtonGradient = Utility.AddDrawing("Square", {
                         Size = ButtonOutline.Size,
                         Position = ButtonOutline.Position,
-                        Data = Library.Theme.Gradient,
-                        Transparency = 0.5,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local ButtonTitle = Utility.AddDrawing("Text", {
@@ -2593,12 +2577,10 @@ do
                         Filled = true
                     })
                     --
-                    local ColorpickerGradient = Utility.AddDrawing("Image", {
+                    local ColorpickerGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(ColorpickerInline.Size.X - 2, ColorpickerInline.Size.Y - 2),
                         Position = Vector2.new(ColorpickerInline.Position.X + 1, ColorpickerInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 0.5,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local InternalInline = Utility.AddDrawing("Square", {
@@ -3092,12 +3074,10 @@ do
                         Filled = true
                     })
                     --
-                    local DropdownGradient = Utility.AddDrawing("Image", {
+                    local DropdownGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(DropdownInline.Size.X - 2, DropdownInline.Size.Y - 2),
                         Position = Vector2.new(DropdownInline.Position.X + 1, DropdownInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 1,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local DropdownTitle = Utility.AddDrawing("Text", {
@@ -3202,12 +3182,10 @@ do
                             ZIndex = 3
                         })
                         --
-                        local SelectionGradient = Utility.AddDrawing("Image", {
+                        local SelectionGradient = Utility.AddDrawing("Square", {
                             Size = Vector2.new(SelectionInline.Size.X - 2, SelectionInline.Size.Y - 2),
                             Position = Vector2.new(SelectionInline.Position.X + 1, SelectionInline.Position.Y + 1),
-                            Data = Library.Theme.Gradient,
-                            Transparency = 1,
-                            Visible = true,
+                            Color = Library.Theme.LightContrast,
                             ZIndex = 3
                         })
                         --
@@ -3404,12 +3382,10 @@ do
                         Filled = true
                     })
                     --
-                    local KeybindGradient = Utility.AddDrawing("Image", {
+                    local KeybindGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(KeybindInline.Size.X - 2, KeybindInline.Size.Y - 2),
                         Position = Vector2.new(KeybindInline.Position.X + 1, KeybindInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 1,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local KeybindValue = Utility.AddDrawing("Text", {
@@ -3442,12 +3418,10 @@ do
                         Filled = true
                     })
                     --
-                    local KeybindHoldGradient = Utility.AddDrawing("Image", {
+                    local KeybindHoldGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(KeybindHoldInline.Size.X - 2, KeybindHoldInline.Size.Y - 2),
                         Position = Vector2.new(KeybindHoldInline.Position.X + 1, KeybindHoldInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 1,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local KeybindHoldValue = Utility.AddDrawing("Text", {
@@ -3480,12 +3454,10 @@ do
                         Filled = true
                     })
                     --
-                    local KeybindToggleGradient = Utility.AddDrawing("Image", {
+                    local KeybindToggleGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(KeybindToggleInline.Size.X - 2, KeybindToggleInline.Size.Y - 2),
                         Position = Vector2.new(KeybindToggleInline.Position.X + 1, KeybindToggleInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 1,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local KeybindToggleValue = Utility.AddDrawing("Text", {
@@ -3518,12 +3490,10 @@ do
                         Filled = true
                     })
                     --
-                    local KeybindAlwaysGradient = Utility.AddDrawing("Image", {
+                    local KeybindAlwaysGradient = Utility.AddDrawing("Square", {
                         Size = Vector2.new(KeybindAlwaysInline.Size.X - 2, KeybindAlwaysInline.Size.Y - 2),
                         Position = Vector2.new(KeybindAlwaysInline.Position.X + 1, KeybindAlwaysInline.Position.Y + 1),
-                        Data = Library.Theme.Gradient,
-                        Transparency = 1,
-                        Visible = true
+                        Color = Library.Theme.LightContrast,
                     })
                     --
                     local KeybindAlwaysValue = Utility.AddDrawing("Text", {
