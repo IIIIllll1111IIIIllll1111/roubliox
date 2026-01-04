@@ -652,17 +652,9 @@ do
             }, Library.Keybind)
             --
             local WindowImage =  Utility.AddDrawing("Square", {
-                Size = Vector2.new(80,30),
-                Position = Vector2.new(50,50),
+                Size = WindowFrame.Size,
+                Position = WindowFrame.Position,
                 Color = Library.Theme.LightContrast, -- 按钮底色
-                Radius = 4, -- 圆角（替代纹理的圆角效果）
-                Outline = true, -- 开启描边
-                OutlineColor = Library.Theme.Accent[1], -- 描边颜色（替代纹理的边框）
-                OutlineThickness = 1, -- 描边粗细
-                Shadow = true, -- 开启阴影（增强立体感）
-                ShadowColor = Color3.new(0,0,0),
-                ShadowTransparency = 0.8,
-                ShadowOffset = Vector2.new(1,1)
             }, Library.Keybind)
             --
             local WindowText = Utility.AddDrawing("Text", {
