@@ -481,7 +481,7 @@ do
         Utility.AddFolder("Abyss/Scripts")
         --
         Library.Theme.Gradient = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
-        -- Library.Theme.SecondIcon = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
+        Library.Theme.SecondIcon = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
         Library.Theme.Hue = Utility.AddImage("Abyss/Assets/UI/Hue.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/HuePicker.png")
         Library.Theme.Saturation = Utility.AddImage("Abyss/Assets/UI/Saturation.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/SaturationPicker.png")
         Library.Theme.SaturationCursor = Utility.AddImage("Abyss/Assets/UI/HueCursor.png", "https://raw.githubusercontent.com/mvonwalk/splix-assets/main/Images-cursor.png")
@@ -651,12 +651,16 @@ do
                 Filled = true
             }, Library.Keybind)
             --
-            local WindowImage = Utility.AddDrawing("Image", {
+            local WindowImage = Utility.AddDrawing("Quad", {
                 Size = WindowFrame.Size,
                 Position = WindowFrame.Position,
-                Transparency = 1, 
-                Visible = true,
-                Data = Library.Theme.Gradient
+                Color = Color3.fromRGB(30,30,35),  -- 左上角深色
+                Color2 = Color3.fromRGB(40,40,45), -- 右上角稍浅色
+                Color3 = Color3.fromRGB(20,20,25), -- 左下角更深色
+                Color4 = Color3.fromRGB(30,30,35), -- 右下角原色
+                Transparency = 0,
+                Filled = true,
+                Visible = true
             }, Library.Keybind)
             --
             local WindowText = Utility.AddDrawing("Text", {
